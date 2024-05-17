@@ -1,0 +1,42 @@
+body {
+    color: white;
+    background-image: url(../img/hatter.png);
+    background-size: cover;
+}
+section,footer,header{
+    background-color:  #4d4372;
+}
+
+h1,
+h3,
+h4,
+h6 {
+font-variant: small-caps;
+
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+
+h3 {
+margin-bottom: 0px;
+}
+
+h4,
+h6 {
+    margin-bottom: 0px;
+    color:  #ca78df;
+}
+
+p {
+    color: #bab5d3;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 1rem;
+    color: #bab5d3;
+    text-align: justify;
+}
