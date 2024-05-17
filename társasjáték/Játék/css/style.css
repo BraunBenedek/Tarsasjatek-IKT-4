@@ -1,0 +1,104 @@
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    background-color: rgba(255, 0, 0, 0.45);
+    padding: 50px;
+    text-align: center;        
+    font-family: Verdana,sans-serif;    
+    color: #000000;
+    font-size: 500%;
+    font-weight: bold;
+    text-transform: uppercase;  
+    letter-spacing: 2px;
+    position: relative;
+    top: 210px;  
+}
+
+h2{
+    color: #000000;
+    font-variant: small-caps;
+    text-decoration: dashed underline;
+    margin-bottom: 10px;    
+}
+
+h3{
+    background-color: #ff2600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+    border-top: 6px solid #f31e0f ;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;     
+}
+
+section.row{
+    background-color: rgba(161, 141, 141, 0.7);
+}
+
+table{
+    border: 1px solid #ffbb00;
+    margin: auto;
+    width: 80%;
+}
+
+thead{
+    background-color: #ff3c00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ff0000;
+}
+
+tbody td:last-child{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+caption{
+    text-align: center;
+}
+
+footer{
+    background-color: #da3517;
+    color: rgb(0, 0, 0);
+}
+
+header {
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+}
+
+p{
+    text-indent: 10px;
+}
+
+ul {
+    list-style: url(../img/pine-cone.png);
+    line-height: 30px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    font-variant: small-caps;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:last-child {
+    font-style: italic;
+}
+
+caption {
+    font-style: italic;
+    margin-top: 6px;
+}
+
